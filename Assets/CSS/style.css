@@ -1,0 +1,45 @@
+/* Universal Sector */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(200, 219, 203);
+}
+
+.header {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding: 20px;
+    border-color:goldenrod ;
+    color:rgb(34, 25, 201) ;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top:15px ;
+    margin-right: 20px;
+    float : right;
+    font-size : 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
